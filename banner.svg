@@ -1,0 +1,76 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+          height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #0d1117;
+          border-radius: 12px;
+          overflow: hidden;
+          position: relative;
+        }
+        .bg-gradient {
+          position: absolute;
+          width: 150%;
+          height: 150%;
+          background: radial-gradient(circle at 20% 30%, #1e293b 0%, #0f172a 50%, #020617 100%);
+          animation: drift 10s ease-in-out infinite alternate;
+        }
+        @keyframes drift {
+          from { transform: translate(-10%, -10%); }
+          to { transform: translate(10%, 10%); }
+        }
+        .glass-card {
+          background: rgba(255, 255, 255, 0.03);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 16px;
+          padding: 20px 40px;
+          text-align: center;
+          z-index: 10;
+          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+        }
+        .title {
+          font-size: 32px;
+          font-weight: 800;
+          letter-spacing: -0.5px;
+          margin: 0;
+          background: linear-gradient(90deg, #58a6ff, #bc8cff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+          font-size: 14px;
+          color: #8b949e;
+          margin-top: 8px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+        .orbit {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          border: 1px solid rgba(88, 166, 255, 0.05);
+          border-radius: 50%;
+          animation: spin 20s linear infinite;
+        }
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+      </style>
+      <div class="container">
+        <div class="bg-gradient"></div>
+        <div class="orbit" style="width: 300px; height: 300px;"></div>
+        <div class="glass-card">
+          <h1 class="title">ALAKMAR TEENWALA</h1>
+          <div class="subtitle">Lead Architect • eSAMz AI</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
