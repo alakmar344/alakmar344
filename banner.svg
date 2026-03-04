@@ -3,106 +3,125 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,700;1,600&amp;family=Crimson+Text&amp;family=IBM+Plex+Mono&amp;display=swap');
+        
         .container {
           height: 240px;
           display: flex;
+          flex-direction: column;
           align-items: center;
           justify-content: center;
           background: #F3F0E9;
           border-radius: 12px;
           overflow: hidden;
           position: relative;
+          text-rendering: optimizeLegibility;
         }
+
         .header {
           position: absolute;
-          top: 30px;
-          left: 40px;
+          top: 35px;
+          left: 45px;
           display: flex;
           align-items: center;
-          gap: 15px;
+          gap: 12px;
           font-family: 'IBM Plex Mono', monospace;
           color: #999;
-          font-size: 11px;
-          letter-spacing: 2px;
+          font-size: 10px;
+          letter-spacing: 2.5px;
         }
+
         .line {
-          width: 40px;
+          width: 35px;
           height: 1px;
           background-color: #999;
         }
+
         .content {
           text-align: center;
-          z-index: 10;
+          width: 100%;
+          padding: 0 40px;
+          box-sizing: border-box;
+          margin-top: 10px;
         }
+
         .title {
           font-family: 'Crimson Pro', serif;
           font-weight: 700;
-          font-size: 38px;
+          font-size: 42px;
           color: #1A1A1A;
           margin: 0;
-          display: block;
+          line-height: 1.1;
         }
+
         .title .italic {
           color: #B84333;
           font-weight: 600;
           font-style: italic;
-          display: block;
-          margin: 5px 0;
+          display: inline-block;
+          margin: 0 8px;
         }
+
         .description {
           font-family: 'Crimson Text', serif;
-          font-size: 15px;
+          font-size: 16px;
           color: #666;
-          max-width: 550px;
-          margin: 20px auto 0 auto;
-          line-height: 1.5;
+          max-width: 580px;
+          margin: 15px auto 0 auto;
+          line-height: 1.4;
+          letter-spacing: 0.2px;
         }
+
         .footer-lines {
           position: absolute;
-          bottom: 30px;
-          left: 40px;
-          right: 40px;
+          bottom: 35px;
+          left: 45px;
+          right: 45px;
           display: flex;
           align-items: center;
-          gap: 10px;
         }
+
         .footer-line-left {
-          flex: 1;
+          flex-grow: 1;
           height: 1px;
-          background-color: #DDD;
+          background-color: #D1CEC7;
         }
-        .symbol {
-          color: #999;
-          font-family: 'Crimson Pro', serif;
-          font-size: 18px;
-        }
-        .footer-line-right {
-          flex: 1;
-          height: 1px;
-          background-color: #DDD;
-        }
+
         .vertical-rule {
-          height: 30px;
+          height: 35px;
           width: 1px;
-          background-color: #DDD;
-          margin-right: 20px;
+          background-color: #D1CEC7;
+          margin: 0 25px;
+        }
+
+        .symbol {
+          color: #A3A098;
+          font-family: 'Crimson Pro', serif;
+          font-size: 20px;
+          margin-right: 25px;
+          line-height: 1;
+        }
+
+        .footer-line-right {
+          flex-grow: 1;
+          height: 1px;
+          background-color: #D1CEC7;
         }
       </style>
       <div class="container">
         <div class="header">
           <div class="line"></div>
-          ALAKMAR TEENWALA - FOUNDER &amp; LEAD ARCHITECT
+          ALAKMAR TEENWALA — FOUNDER &amp; LEAD ARCHITECT
         </div>
+        
         <div class="content">
           <h1 class="title">
-            What shall we
-            <span class="italic">architect</span>
-            today?
+            What shall we <span class="italic">architect</span> today?
           </h1>
           <p class="description">
             Building complex systems with human-centric clarity, specializing in production-grade AI applications and zero-storage network security.
           </p>
         </div>
+
         <div class="footer-lines">
           <div class="footer-line-left"></div>
           <div class="vertical-rule"></div>
