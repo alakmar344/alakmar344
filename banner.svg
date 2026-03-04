@@ -1,74 +1,113 @@
-<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 240" width="800" height="240" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,700;1,600&amp;family=Crimson+Text&amp;family=IBM+Plex+Mono&amp;display=swap');
         .container {
-          font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-          height: 200px;
+          height: 240px;
           display: flex;
           align-items: center;
           justify-content: center;
-          background: #0d1117;
+          background: #F3F0E9;
           border-radius: 12px;
           overflow: hidden;
           position: relative;
         }
-        .bg-gradient {
+        .header {
           position: absolute;
-          width: 150%;
-          height: 150%;
-          background: radial-gradient(circle at 20% 30%, #1e293b 0%, #0f172a 50%, #020617 100%);
-          animation: drift 10s ease-in-out infinite alternate;
-        }
-        @keyframes drift {
-          from { transform: translate(-10%, -10%); }
-          to { transform: translate(10%, 10%); }
-        }
-        .glass-card {
-          background: rgba(255, 255, 255, 0.03);
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          border-radius: 16px;
-          padding: 20px 40px;
-          text-align: center;
-          z-index: 10;
-          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
-        }
-        .title {
-          font-size: 32px;
-          font-weight: 800;
-          letter-spacing: -0.5px;
-          margin: 0;
-          background: linear-gradient(90deg, #58a6ff, #bc8cff);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-        .subtitle {
-          font-size: 14px;
-          color: #8b949e;
-          margin-top: 8px;
-          text-transform: uppercase;
+          top: 30px;
+          left: 40px;
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          font-family: 'IBM Plex Mono', monospace;
+          color: #999;
+          font-size: 11px;
           letter-spacing: 2px;
         }
-        .orbit {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          border: 1px solid rgba(88, 166, 255, 0.05);
-          border-radius: 50%;
-          animation: spin 20s linear infinite;
+        .line {
+          width: 40px;
+          height: 1px;
+          background-color: #999;
         }
-        @keyframes spin {
-          to { transform: rotate(360deg); }
+        .content {
+          text-align: center;
+          z-index: 10;
+        }
+        .title {
+          font-family: 'Crimson Pro', serif;
+          font-weight: 700;
+          font-size: 38px;
+          color: #1A1A1A;
+          margin: 0;
+          display: block;
+        }
+        .title .italic {
+          color: #B84333;
+          font-weight: 600;
+          font-style: italic;
+          display: block;
+          margin: 5px 0;
+        }
+        .description {
+          font-family: 'Crimson Text', serif;
+          font-size: 15px;
+          color: #666;
+          max-width: 550px;
+          margin: 20px auto 0 auto;
+          line-height: 1.5;
+        }
+        .footer-lines {
+          position: absolute;
+          bottom: 30px;
+          left: 40px;
+          right: 40px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        .footer-line-left {
+          flex: 1;
+          height: 1px;
+          background-color: #DDD;
+        }
+        .symbol {
+          color: #999;
+          font-family: 'Crimson Pro', serif;
+          font-size: 18px;
+        }
+        .footer-line-right {
+          flex: 1;
+          height: 1px;
+          background-color: #DDD;
+        }
+        .vertical-rule {
+          height: 30px;
+          width: 1px;
+          background-color: #DDD;
+          margin-right: 20px;
         }
       </style>
       <div class="container">
-        <div class="bg-gradient"></div>
-        <div class="orbit" style="width: 300px; height: 300px;"></div>
-        <div class="glass-card">
-          <h1 class="title">ALAKMAR TEENWALA</h1>
-          <div class="subtitle">Lead Architect • eSAMz AI</div>
+        <div class="header">
+          <div class="line"></div>
+          ALAKMAR TEENWALA - FOUNDER &amp; LEAD ARCHITECT
+        </div>
+        <div class="content">
+          <h1 class="title">
+            What shall we
+            <span class="italic">architect</span>
+            today?
+          </h1>
+          <p class="description">
+            Building complex systems with human-centric clarity, specializing in production-grade AI applications and zero-storage network security.
+          </p>
+        </div>
+        <div class="footer-lines">
+          <div class="footer-line-left"></div>
+          <div class="vertical-rule"></div>
+          <div class="symbol">§</div>
+          <div class="footer-line-right"></div>
         </div>
       </div>
     </div>
