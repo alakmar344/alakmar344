@@ -1,134 +1,119 @@
-<svg fill="none" viewBox="0 0 800 240" width="800" height="240" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,700;1,600&amp;family=Crimson+Text&amp;family=IBM+Plex+Mono&amp;display=swap');
-        
-        .container {
-          height: 240px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          background: #F3F0E9;
-          border-radius: 12px;
-          overflow: hidden;
-          position: relative;
-          text-rendering: optimizeLegibility;
-        }
+<?xml version="1.0" encoding="UTF-8"?>
+<svg fill="none" viewBox="0 0 800 440" width="800" height="440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'IBM Plex Mono', monospace">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,700;1,600&amp;family=Crimson+Text&amp;family=IBM+Plex+Mono&amp;display=swap');
 
-        .header {
-          position: absolute;
-          top: 35px;
-          left: 45px;
-          display: flex;
-          align-items: center;
-          gap: 12px;
-          font-family: 'IBM Plex Mono', monospace;
-          color: #999;
-          font-size: 10px;
-          letter-spacing: 2.5px;
-        }
+      .container {
+        fill: #F3F0E9;
+      }
 
-        .line {
-          width: 35px;
-          height: 1px;
-          background-color: #999;
-        }
+      .header {
+        font-family: 'IBM Plex Mono', monospace;
+        fill: #999;
+        font-size: 10px;
+        letter-spacing: 2.5px;
+      }
 
-        .content {
-          text-align: center;
-          width: 100%;
-          padding: 0 40px;
-          box-sizing: border-box;
-          margin-top: 10px;
-        }
+      .line {
+        stroke: #999;
+        stroke-width: 1;
+      }
 
-        .title {
-          font-family: 'Crimson Pro', serif;
-          font-weight: 700;
-          font-size: 42px;
-          color: #1A1A1A;
-          margin: 0;
-          line-height: 1.1;
-        }
+      .title {
+        font-family: 'Crimson Pro', serif;
+        font-weight: 700;
+        font-size: 26px;
+        fill: #1A1A1A;
+      }
 
-        .title .italic {
-          color: #B84333;
-          font-weight: 600;
-          font-style: italic;
-          display: inline-block;
-          margin: 0 8px;
-        }
+      .title-i {
+        fill: #B84333;
+        font-weight: 600;
+        font-style: italic;
+      }
 
-        .description {
-          font-family: 'Crimson Text', serif;
-          font-size: 16px;
-          color: #666;
-          max-width: 580px;
-          margin: 15px auto 0 auto;
-          line-height: 1.4;
-          letter-spacing: 0.2px;
-        }
+      .section-label {
+        font-family: 'IBM Plex Mono', monospace;
+        fill: #A3A098;
+        font-size: 10px;
+        letter-spacing: 2px;
+      }
 
-        .footer-lines {
-          position: absolute;
-          bottom: 35px;
-          left: 45px;
-          right: 45px;
-          display: flex;
-          align-items: center;
-        }
+      .repo {
+        font-family: 'Crimson Text', serif;
+        font-size: 13px;
+        fill: #333;
+      }
 
-        .footer-line-left {
-          flex-grow: 1;
-          height: 1px;
-          background-color: #D1CEC7;
-        }
+      .lang-dot { rx: 3; }
+      .lang-name {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 11px;
+        fill: #444;
+      }
+      .lang-count {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 11px;
+        fill: #999;
+      }
 
-        .vertical-rule {
-          height: 35px;
-          width: 1px;
-          background-color: #D1CEC7;
-          margin: 0 25px;
-        }
+      .rule { stroke: #D1CEC7; stroke-width: 1; }
+      .card { fill: #FAF8F3; stroke: #E4E0D8; stroke-width: 1; rx: 8; }
+    </style>
 
-        .symbol {
-          color: #A3A098;
-          font-family: 'Crimson Pro', serif;
-          font-size: 20px;
-          margin-right: 25px;
-          line-height: 1;
-        }
+    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" fill="none" stroke="#ECE8DF" stroke-width="0.5"/>
+    </pattern>
+  </defs>
 
-        .footer-line-right {
-          flex-grow: 1;
-          height: 1px;
-          background-color: #D1CEC7;
-        }
-      </style>
-      <div class="container">
-        <div class="header">
-          <div class="line"></div>
-          ALAKMAR TEENWALA — FOUNDER &amp; LEAD ARCHITECT
-        </div>
-        
-        <div class="content">
-          <h1 class="title">
-            What shall we <span class="italic">architect</span> today?
-          </h1>
-          <p class="description">
-            Building complex systems with human-centric clarity, specializing in production-grade AI applications and zero-storage network security.
-          </p>
-        </div>
+  <!-- background -->
+  <rect class="container" x="0" y="0" width="800" height="440" rx="12"/>
+  <rect x="0" y="0" width="800" height="440" rx="12" fill="url(#grid)"/>
 
-        <div class="footer-lines">
-          <div class="footer-line-left"></div>
-          <div class="vertical-rule"></div>
-          <div class="symbol">§</div>
-          <div class="footer-line-right"></div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+  <!-- header -->
+  <line class="line" x1="45" y1="40" x2="80" y2="40"/>
+  <text class="header" x="92" y="44">ALAKMAR TEENWALA — FOUNDER &amp; LEAD ARCHITECT</text>
+
+  <!-- title -->
+  <text class="title" x="45" y="78">What shall we <tspan class="title-i">architect</tspan> today?</text>
+
+  <!-- contribution graph (public, no auth required) -->
+  <rect class="card" x="45" y="98" width="710" height="170"/>
+  <text class="section-label" x="60" y="118">GITHUB CONTRIBUTIONS · @alakmar344</text>
+  <image x="60" y="128" width="680" height="120"
+         xlink:href="https://ghchart.rshah.org/1A1A1A/alakmar344"/>
+  <text class="lang-count" x="60" y="258">source: github.com/alakmar344</text>
+
+  <!-- projects (top repos by stars) -->
+  <rect class="card" x="45" y="284" width="350" height="130"/>
+  <text class="section-label" x="60" y="304">FEATURED PROJECTS</text>
+  <text class="repo" x="60" y="328">★ esamz-ai</text>
+  <text class="repo" x="60" y="348">★ Real-learn</text>
+  <text class="repo" x="60" y="368">★ revive-me</text>
+  <text class="repo" x="60" y="388">★ See-market</text>
+  <text class="lang-count" x="60" y="408">41 public repos · 8 products</text>
+
+  <!-- most used languages -->
+  <rect class="card" x="405" y="284" width="350" height="130"/>
+  <text class="section-label" x="420" y="304">MOST USED LANGUAGES</text>
+
+  <rect class="lang-dot" x="420" y="322" width="10" height="10" style="fill:#e34c26"/>
+  <text class="lang-name" x="438" y="331">HTML</text>
+  <text class="lang-count" x="715" y="331" text-anchor="end">12</text>
+
+  <rect class="lang-dot" x="420" y="346" width="10" height="10" style="fill:#f1e05a"/>
+  <text class="lang-name" x="438" y="355">JavaScript</text>
+  <text class="lang-count" x="715" y="355" text-anchor="end">7</text>
+
+  <rect class="lang-dot" x="420" y="370" width="10" height="10" style="fill:#3178c6"/>
+  <text class="lang-name" x="438" y="379">TypeScript</text>
+  <text class="lang-count" x="715" y="379" text-anchor="end">6</text>
+
+  <rect class="lang-dot" x="420" y="394" width="10" height="10" style="fill:#a97bff"/>
+  <text class="lang-name" x="438" y="403">Kotlin</text>
+  <text class="lang-count" x="715" y="403" text-anchor="end">2</text>
+
+  <!-- footer rule -->
+  <line class="rule" x1="45" y1="428" x2="755" y2="428"/>
 </svg>
