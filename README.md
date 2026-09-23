@@ -1,62 +1,190 @@
 <div align="center">
 
+# Al-Aqmar Tinwala
 
-# Al-Aqmar Tinwala — القمر · "The Moon"
+### القمر · “The Moon”
 
-**13-year-old privacy-first AI builder · founder of [eSAMz](https://esamz.me) · I ship, then I explain the math.**
+**13-year-old AI Architect & Developer · Founder of eSAMz**
 
-Heart First · Privacy First · Curious · Technical · Builder
+**Heart First · Privacy First · Curious · Technical · Builder**
+
+[Portfolio](https://esamz.me) · [GitHub](https://github.com/alakmar344) · [Email](mailto:proman007power@gmail.com)
+
+**11 live products · 3,000+ users · 43 public repositories · 2 books**
 
 </div>
 
+<br>
+
+> **I build AI products people actually use, then build the systems underneath them.**
+>
+> Interfaces. AI infrastructure. Privacy engineering. Graphics. Developer tools. Sometimes the model itself.
+
+## 🧠 What I actually build
+
+My work lives somewhere between **AI product engineering and low-level experimentation**.
+
+I might spend one week building a privacy-first AI assistant, the next training a Transformer from scratch, and the next making a voxel engine run smoothly in a browser.
+
+The common thread is simple:
+
+**build → understand → rebuild better.**
+
 ---
 
-I build AI products people actually use — **11 live products, 3,000+ users** — and I build the *layers under them* too: transformer training frameworks, voxel engines, privacy-preserving analytics, and Android launchers.
+## 🔬 Selected work
 
-> 🏠 **Workshop & live products:** [esamz.me](https://esamz.me)
+| Project                                                                                     | What it proves                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **[youAI](https://github.com/alakmar344/youAI-2B-From-Scratch-Transformer-Implementation)** | A complete LLM toolkit grown from a **2B-parameter Transformer built from scratch** into a pip-installable framework with model loading, fine-tuning, DPO/ORPO/SimPO alignment, LoRA/QLoRA, model merging, evaluation, multi-GPU training and serving. |
+| **[Gati](https://github.com/alakmar344/gati)**                                              | A **14k+ line India-first mobility OS** with intent-driven workflows, bilingual EN/हिंदी voice interaction, command navigation and a real product surface rather than a mockup.                                                                        |
+| **[Vinecraft](https://github.com/alakmar344/vinecraft)**                                    | A browser voxel engine with **46 block types, 10 biomes, procedural terrain, caves, weather, shadows and mobile controls**, built around vanilla JavaScript + Three.js.                                                                                |
+| **[π · science-project](https://github.com/alakmar344/science-project)**                    | Interactive chemistry visualization built for real learning, including atoms, molecules, bonding and molecular geometry, with performance designed around low-spec machines.                                                                           |
+| **[analytics-hub](https://github.com/alakmar344/analytics-hub)**                            | Privacy as implementation: visitor IPs are **HMAC-SHA256 hashed and never stored raw**, with tested middleware instead of privacy promises in a landing page.                                                                                          |
+| **[eSAMz AI](https://github.com/alakmar344/esamz.a)**                                       | The production code behind my flagship AI assistant: PWA architecture, privacy controls, consent acceptance/revocation and a Rust-powered backend layer.                                                                                               |
+| **[eSAMz Code](https://github.com/alakmar344/My-code)**                                     | An agentic coding workspace that can **plan → execute → observe → retry**, with a virtual filesystem and Docker-sandboxed execution designed to work on the web and phones.                                                                            |
+| **[revive-me](https://github.com/alakmar344/revive-me)**                                    | A local-first Rust bridge for turning legacy `.dbf`, `.xls` and `.xlsx` data into formats modern tools can actually use.                                                                                                                               |
+| **[Not-a-thing-launcher](https://github.com/alakmar344/Not-a-thing-launcher)**              | A Kotlin Android launcher taken from idea to tagged releases and CI-built APKs.                                                                                                                                                                        |
+| **[Breeze](https://github.com/alakmar344/breeze-framework)**                                | A lightweight frontend framework experiment exploring the space between vanilla JavaScript and heavyweight UI frameworks.                                                                                                                              |
 
 ---
 
-## 🔬 What I'm most proud of
+## 🚀 The products behind the code
 
-| Project | What it proves |
-|---------|----------------|
-| [**youAI**](https://github.com/alakmar344/youAI-2B-From-Scratch-Transformer-Implementation) | A 7,500-line from-scratch Transformer training framework — RoPE, RMSNorm, GQA, KV-cache, LoRA/QLoRA, DPO/ORPO/SimPO alignment, DARE/TIES/SLERP model merging, multi-GPU training, FastAPI streaming server, 14 test files |
-| [**Gati**](https://github.com/alakmar344/gati) | A 14,000-line India-first "mobility OS" — intent-based command palette, bilingual voice commands (Web Speech API), OCR document scanning, 180+ i18n entries |
-| [**Vinecraft**](https://github.com/alakmar344/vinecraft) | A voxel game engine in vanilla JavaScript — chunked procedural terrain, 10 biomes, 46 block types, weather, shadow mapping, mobile touch controls |
-| [**ATOMVERSE (π)**](https://github.com/alakmar344/science-project) | The code behind my live π science playground — a custom no-WebGL 3D orthographic renderer built for low-spec school laptops, verified NCERT chemistry |
-| [**analytics-hub**](https://github.com/alakmar344/analytics-hub) | Privacy-first self-hosted analytics — raw IPs are never stored (HMAC-SHA256 hashing, unit-tested). The anti-Google-Analytics |
-| [**eSAMz flagship**](https://github.com/alakmar344/esamz.a) | My production AI assistant — consent acceptance/revoke as first-class backend routes, PWA, Clerk auth, 112 commits of iteration |
+I don't only build experiments.
 
-## 🚀 More shipped things
+I ship things.
 
-- **[See-market](https://github.com/alakmar344/See-market)** — live market-intelligence platform (RSI/MACD computed server-side) · [see-market.vercel.app](https://see-market.vercel.app)
-- **[eSAMz Code (My-code)](https://github.com/alakmar344/My-code)** — an agentic coding IDE that runs on phones (Docker sandbox, NDJSON streaming)
-- **[Not-a-thing-launcher](https://github.com/alakmar344/Not-a-thing-launcher)** — Android launcher with 3 tagged APK releases
-- **[revive-me](https://github.com/alakmar344/revive-me)** — Rust local-only legacy-data bridge (.dbf/.xls → clean JSON)
-- **[Cibo Cocinar](https://github.com/alakmar344/CIBO-COCINAR)** · **[Hissab](https://github.com/alakmar344/Hissab-)** · **[PivotIQ](https://github.com/alakmar344/PivotIQ)** — voice-first cooking, small-biz fintech, startup validation (all live)
+**eSAMz AI**
+Privacy-first AI with a 128k context window, web search and zero-retention architecture.
 
-## 🧭 The thread connecting it all
+**RealLearn**
+Adaptive learning that turns one question into a structured learning journey with foundations, mechanisms, real-world context and active-recall checkpoints.
 
+**Gati · गति**
+An India-first mobility experience built around intent, voice and everyday transport workflows.
+
+**SeeMarket**
+Market intelligence with server-side RSI, MACD and support/resistance analysis.
+
+**Hissab**
+A mobile-first sales and analytics tool for Indian small businesses.
+
+**CiboCocinar**
+A voice-first cooking assistant designed for hands-free use.
+
+**MindEase**
+An on-device conversational experience built around privacy and local processing.
+
+**PivotIQ**
+A startup concept validation tool focused on risks, positioning and structured evaluation.
+
+...plus the smaller experiments, games, science tools and things that exist mostly because I wondered:
+
+> **“Can I build that?”**
+
+Usually, I did.
+
+---
+
+## 🧭 How the pieces connect
+
+```text
+build a product
+      ↓
+run into a limitation
+      ↓
+understand the system underneath it
+      ↓
+build the missing tool
+      ↓
+use that tool in the next product
+      ↓
+repeat
 ```
-prompt-engineered chatbot (sam.ai, Oct 2025)
-   → production AI assistant with consent architecture (esamz.a)
-      → training transformers from scratch (youAI)
-         → an AI that writes code (eSAMz Code)
-```
 
-I use AI → I ship an AI product → I understand AI at the math level → I build AI tooling.
+A chatbot became a production AI assistant.
+
+The assistant led me deeper into Transformers.
+
+That became a training framework.
+
+The framework became AI tooling.
+
+The tooling became an agent that writes code.
+
+**I use AI → I ship AI → I understand AI → I build AI infrastructure.**
+
+---
 
 ## 🛠 Toolbox
 
-`Next.js` `React` `TypeScript` `JavaScript` `Python` `PyTorch` `Rust` `Kotlin` `Java` `C++` `Tailwind` `Vite` `Express` `FastAPI` `MongoDB` `Docker` `Clerk` `PWA` `Web Speech API` `Three.js` `FFmpegKit` `Vercel` `Git/GitHub`
+**AI / ML**
+Python · PyTorch · Transformers · LLMs · LoRA · QLoRA · DPO · ORPO · SimPO
 
-## 📚 Elsewhere
+**Frontend / Product**
+Next.js · React · TypeScript · JavaScript · Tailwind · Vite · PWA
 
-- 🏠 Portfolio & all 11 worlds: [esamz.me](https://esamz.me)
-- 📖 *The AI Mastery Handbook* & *30 Days Mastering Claude Code* (Amazon KDP)
-- 📧 proman007power@gmail.com
+**Systems**
+Rust · C++ · Docker · FastAPI · Express
+
+**Mobile**
+Kotlin · Java · Android
+
+**Graphics / Interactive**
+Three.js · WebGL · FFmpegKit · procedural systems
+
+**Data / Infrastructure**
+MongoDB · Vercel · Git · GitHub · CI/CD · Web Speech API
 
 ---
 
-*43 public repositories · the rest is history, experiments, and a lot of learning.* ♡
+## 📚 Outside the code
+
+I also write.
+
+**The AI Mastery Handbook**
+AI history, LLM mechanics, major model families and practical prompting.
+
+**30 Days Mastering Claude Code**
+A hands-on guide to agentic coding workflows and automation.
+
+Both are published through Amazon KDP.
+
+---
+
+## 🌙 The philosophy
+
+I care about technology that is **useful without becoming extractive**.
+
+That means:
+
+**Heart First**
+Technology should serve people with dignity.
+
+**Privacy First**
+Privacy belongs in the architecture, not the marketing copy.
+
+**Curiosity First**
+Build things because they are interesting enough to deserve existing.
+
+**Ship First**
+Ideas are cheap. Working software leaves evidence.
+
+> **“Code can love you back. ♡”**
+
+---
+
+<div align="center">
+
+### 🏠 Workshop
+
+**[esamz.me](https://esamz.me)**
+
+Building AI, tools, experiments and occasionally something completely unnecessary because it sounded fun.
+
+**43 repositories. 11 live worlds. Still warming up.**
+
+♡
+
+</div>
