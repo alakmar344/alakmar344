@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Al-Aqmar Tinwala banner" width="100%" />
 
 # Al-Aqmar Tinwala — القمر · "The Moon"
 
